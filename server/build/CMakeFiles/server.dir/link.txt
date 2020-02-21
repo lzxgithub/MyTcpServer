@@ -1,0 +1,1 @@
+g++  -std=c++11 -g -Wall   -rdynamic CMakeFiles/server.dir/server/server.cpp.o  -o bin/server -lpthread 

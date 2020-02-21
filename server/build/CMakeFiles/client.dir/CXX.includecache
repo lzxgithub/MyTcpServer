@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/MyBaseClient.h
+unistd.h
+-
+arpa/inet.h
+-
+string.h
+-
+stdio.h
+-
+MyMessageType.h
+.././inc/MyMessageType.h
+iostream
+-
+
+.././inc/MyMessageType.h
+
+/home/terry/Workspace/commlib/server/client/client.cpp
+MyBaseClient.h
+/home/terry/Workspace/commlib/server/client/MyBaseClient.h
+thread
+-
+iostream
+-
+functional
+-
+

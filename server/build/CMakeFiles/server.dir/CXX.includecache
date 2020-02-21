@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././inc/MyBaseServer.h
+unistd.h
+-
+arpa/inet.h
+-
+string.h
+-
+stdio.h
+-
+vector
+-
+thread
+-
+mutex
+-
+atomic
+-
+functional
+-
+iostream
+-
+MyMessageType.h
+.././inc/MyMessageType.h
+MyTimestamp.h
+.././inc/MyTimestamp.h
+
+.././inc/MyMessageType.h
+
+.././inc/MyTimestamp.h
+chrono
+-
+
+/home/terry/Workspace/commlib/server/server/server.cpp
+MyBaseServer.h
+/home/terry/Workspace/commlib/server/server/MyBaseServer.h
+thread
+-
+
